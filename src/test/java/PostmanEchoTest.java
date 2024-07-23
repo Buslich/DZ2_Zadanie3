@@ -18,6 +18,7 @@ public class PostmanEchoTest {
                 .then()
                 .statusCode(200)
                 .body("data", equalTo("ddf data"))
+
         ;
     }
 }
